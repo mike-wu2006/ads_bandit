@@ -1,0 +1,439 @@
+p: 8.969618752580638e-111
+Round 1/100
+Context: [49  0  1]
+Best Arm (Ad) Index: 8
+Best Arm (Ad) Features: [  45   60    1    0 3003  501]
+Feature Vector: [  49    0    1   45   60    1    0 3003  501]
+Reward: 0
+--------------------------------------------------
+p: 1.1732035349412095e-65
+Round 2/100
+Context: [48  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  48    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 1.0792730732320159e-68
+Round 3/100
+Context: [39  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  39    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 1.9316429401697215e-75
+Round 4/100
+Context: [19  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  19    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 1.3688520380991504e-66
+Round 5/100
+Context: [46  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  46    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.697086869199577e-63
+Round 6/100
+Context: [55  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  55    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 1.1732035349412095e-65
+Round 7/100
+Context: [48  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  48    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.6631402408181227e-70
+Round 8/100
+Context: [35  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  35    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.6631402408181227e-70
+Round 9/100
+Context: [35  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  35    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.1589846055744022e-71
+Round 10/100
+Context: [31  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  31    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 9.928629874628287e-72
+Round 11/100
+Context: [30  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  30    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.5190262299314554e-72
+Round 12/100
+Context: [29  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  29    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.0599398127874648e-69
+Round 13/100
+Context: [33  1  0]
+Best Arm (Ad) Index: 6
+Best Arm (Ad) Features: [  25   34    0    1 1938  293]
+Feature Vector: [  33    1    0   25   34    0    1 1938  293]
+Reward: 0
+--------------------------------------------------
+p: 1.0792730732320159e-68
+Round 14/100
+Context: [39  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  39    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 1.1097164288491405e-67
+Round 15/100
+Context: [42  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  42    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 4.827146103360484e-70
+Round 16/100
+Context: [35  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  35    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 4.358064600624804e-118
+Round 17/100
+Context: [25  0  1]
+Best Arm (Ad) Index: 7
+Best Arm (Ad) Features: [  35   44    0    1 3003  501]
+Feature Vector: [  25    0    1   35   44    0    1 3003  501]
+Reward: 0
+--------------------------------------------------
+p: 2.449920637427793e-73
+Round 18/100
+Context: [26  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  26    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 4.53644503925319e-62
+Round 19/100
+Context: [54  0  1]
+Best Arm (Ad) Index: 6
+Best Arm (Ad) Features: [  25   34    0    1 1938  293]
+Feature Vector: [  54    0    1   25   34    0    1 1938  293]
+Reward: 0
+--------------------------------------------------
+p: 1.2592573257403383e-69
+Round 20/100
+Context: [37  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  37    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 6.472572981366583e-66
+Round 21/100
+Context: [48  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  48    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 1.3688520380991504e-66
+Round 22/100
+Context: [46  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  46    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.449920637427793e-73
+Round 23/100
+Context: [26  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  26    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 4.827146103360484e-70
+Round 24/100
+Context: [35  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  35    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 6.122314125747751e-68
+Round 25/100
+Context: [42  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  42    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 9.656253254613852e-73
+Round 26/100
+Context: [27  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  27    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 1.2247115466706891e-70
+Round 27/100
+Context: [34  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  34    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.2198836845466704e-70
+Round 28/100
+Context: [34  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  34    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 4.440669205940374e-73
+Round 29/100
+Context: [26  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  26    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.346883688627917e-68
+Round 30/100
+Context: [40  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  40    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 4.7959759968929164e-60
+Round 31/100
+Context: [60  0  1]
+Best Arm (Ad) Index: 6
+Best Arm (Ad) Features: [  25   34    0    1 1938  293]
+Feature Vector: [  60    0    1   25   34    0    1 1938  293]
+Reward: 0
+--------------------------------------------------
+p: 5.632141896093653e-71
+Round 32/100
+Context: [33  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  33    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.2198836845466704e-70
+Round 33/100
+Context: [34  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  34    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.0861975405033213e-62
+Round 34/100
+Context: [53  0  1]
+Best Arm (Ad) Index: 6
+Best Arm (Ad) Features: [  25   34    0    1 1938  293]
+Feature Vector: [  53    0    1   25   34    0    1 1938  293]
+Reward: 0
+--------------------------------------------------
+p: 2.3173448594036316e-75
+Round 35/100
+Context: [20  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  20    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.2198836845466704e-70
+Round 36/100
+Context: [34  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  34    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.551135859758666e-65
+Round 37/100
+Context: [49  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  49    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.9765743258466003e-66
+Round 38/100
+Context: [47  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  47    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.0421526317326985e-73
+Round 39/100
+Context: [25  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  25    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.5190262299314554e-72
+Round 40/100
+Context: [29  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  29    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 1.2592573257403383e-69
+Round 41/100
+Context: [37  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  37    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.449920637427793e-73
+Round 42/100
+Context: [26  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  26    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.3673250819083724e-64
+Round 43/100
+Context: [48  1  0]
+Best Arm (Ad) Index: 6
+Best Arm (Ad) Features: [  25   34    0    1 1938  293]
+Feature Vector: [  48    1    0   25   34    0    1 1938  293]
+Reward: 0
+--------------------------------------------------
+p: 1.9316429401697215e-75
+Round 44/100
+Context: [19  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  19    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.449920637427793e-73
+Round 45/100
+Context: [26  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  26    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.8154990440325816e-68
+Round 46/100
+Context: [41  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  41    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 4.7959759968929164e-60
+Round 47/100
+Context: [60  0  1]
+Best Arm (Ad) Index: 6
+Best Arm (Ad) Features: [  25   34    0    1 1938  293]
+Feature Vector: [  60    0    1   25   34    0    1 1938  293]
+Reward: 0
+--------------------------------------------------
+p: 5.395269440996199e-66
+Round 48/100
+Context: [47  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  47    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 1.0496648840385865e-69
+Round 49/100
+Context: [36  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  36    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 9.656253254613852e-73
+Round 50/100
+Context: [27  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  27    0    1   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.645943668958438e-60
+Round 51/100
+Context: [60  1  0]
+Best Arm (Ad) Index: 6
+Best Arm (Ad) Features: [  25   34    0    1 1938  293]
+Feature Vector: [  60    1    0   25   34    0    1 1938  293]
+Reward: 0
+--------------------------------------------------
+p: 2.2055493326726374e-60
+Round 52/100
+Context: [59  0  1]
+Best Arm (Ad) Index: 6
+Best Arm (Ad) Features: [  25   34    0    1 1938  293]
+Feature Vector: [  59    0    1   25   34    0    1 1938  293]
+Reward: 0
+--------------------------------------------------
+p: 1.5299569170405501e-62
+Round 53/100
+Context: [58  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  58    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 2.6631402408181227e-70
+Round 54/100
+Context: [35  1  0]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  35    1    0   45   60    0    1 1937  293]
+Reward: 0
+--------------------------------------------------
+p: 4.565928396749014e-72
+Round 55/100
+Context: [29  0  1]
+Best Arm (Ad) Index: 4
+Best Arm (Ad) Features: [  45   60    0    1 1937  293]
+Feature Vector: [  29    0    1   45   60    0    1 1937  293]
+Reward: 0
