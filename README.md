@@ -14,3 +14,4 @@ consumer dataset: audienceInfoOutput.csv
 ads dataset: adsInfo_lite.csv
 
 ### Noted that this code can only be processed under the environemnt of the original Logistic_Bandit repo: https://github.com/louisfaury/logistic_bandit
+referred to results.txt
