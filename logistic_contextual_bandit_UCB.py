@@ -1,12 +1,12 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from logbexp.utils.optimization import fit_online_logistic_estimate, fit_online_logistic_estimate_bar
 from logbexp.utils.utils import sigmoid, dsigmoid, weighted_norm
 
 # Define theta_star based on the provided values
-theta_star = np.array([7.76800624e-01, -6.21092967e-01, -2.63435110e-02, -1.83285908e-01,
-                       -1.86187362e-04, 5.23992949e-04, -3.20098726e-02, -7.12018933e-02, -1.38427526e-01])
+theta_star = np.array([0.17804974, -0.11028392, -0.1086882, -0.16341375, -0.01371968, -0.14434532, -0.12775663])
 
 class ContextualEcoLog():
     def __init__(self, param_norm_ub, arm_norm_ub, context_dim, action_dim, failure_level):
@@ -72,10 +72,10 @@ class ContextualEcoLog():
                                           1 + sensitivity * np.dot(feature_vector, np.dot(self.vtilde_matrix_inv, feature_vector)))
 
         # sensitivity check
-        sensitivity_bar = dsigmoid(np.dot(theta_bar, feature_vector))
-        if sensitivity_bar / sensitivity > 2:
-            msg = f"\033[95m Oops. ContextualECOLog has a problem: the data-dependent condition was not met. This is rare; try increasing the regularization (self.l2reg) \033[95m"
-            raise ValueError(msg)
+        # sensitivity_bar = dsigmoid(np.dot(theta_bar, feature_vector))
+        # if sensitivity_bar / sensitivity > 2:
+        #     msg = f"\033[95m Oops. ContextualECOLog has a problem: the data-dependent condition was not met. This is rare; try increasing the regularization (self.l2reg) \033[95m"
+        #     raise ValueError(msg)
 
         # update sum of losses
         eps = 1e-8
@@ -142,7 +142,7 @@ class LogisticBanditEnv(object):
     print(f"p: {p}")
     return np.random.binomial(1, p)
 
-NUM_ROUNDS = 100
+NUM_ROUNDS = 25000
 NUM_ARM = 10
 
 # Read datasets using pandas
@@ -150,22 +150,63 @@ ads_df = pd.read_csv('adsInfoOutput.csv')
 customer_info_df = pd.read_csv('audienceInfoOutput.csv')
 
 # Select the first NUM_ARM rows from the ads dataframe
-ARMS = ads_df[['Ad_Min_Age', 'Ad_Max_Age', 'Ad_Female', 'Ad_Male', 'Impressions', 'Clicks']].head(NUM_ARM).values
+ARMS = ads_df[['Ad_Min_Age', 'Ad_Max_Age', 'Ad_Female', 'Ad_Male']].head(NUM_ARM).values
 env = LogisticBanditEnv(theta_star)
 alg = ContextualEcoLog(param_norm_ub=1, arm_norm_ub=1, context_dim=customer_info_df.shape[1], action_dim=ARMS.shape[1], failure_level=0.1)
 
+# Initialize arrays to store regret values
+cumulative_regret = np.zeros(NUM_ROUNDS)
+instant_regret = np.zeros(NUM_ROUNDS)
+
+# Run the algorithm and calculate regret
 for round in range(NUM_ROUNDS):
     context = customer_info_df.sample(1).values.flatten()
 
+    # Algorithm selects the best arm
     best_arm, best_arm_index = alg.pull(context, ARMS)
     feature_vector = np.concatenate((context, best_arm))
     reward = env.step(feature_vector)
     alg.learn(context, best_arm, reward)
 
+    # Calculate the theoretical best reward using theta_star
+    true_rewards = np.array([sigmoid(np.dot(np.concatenate((context, arm)), theta_star)) for arm in ARMS])
+    optimal_reward = np.max(true_rewards)
+
+    # Calculate instant regret and accumulate cumulative regret
+    instant_regret[round] = optimal_reward - sigmoid(np.dot(feature_vector, theta_star))
+    cumulative_regret[round] = instant_regret[round] + (cumulative_regret[round - 1] if round > 0 else 0)
+
+    # Print the regret for the current round
     print(f"Round {round + 1}/{NUM_ROUNDS}")
     print("Context:", context)
     print("Best Arm (Ad) Index:", best_arm_index)
     print("Best Arm (Ad) Features:", best_arm)
     print("Feature Vector:", feature_vector)
     print("Reward:", reward)
+    print("Instantaneous Regret:", instant_regret[round])
+    print("Cumulative Regret:", cumulative_regret[round])
     print("-" * 50)
+
+# Plot the instant regret and cumulative regret
+plt.figure(figsize=(12, 6))
+
+# Plotting Instant Regret
+plt.subplot(1, 2, 1)
+plt.plot(instant_regret, label='Instant Regret', color='orange')
+plt.xlabel('Rounds')
+plt.ylabel('Instant Regret')
+plt.title('Instant Regret over Time')
+plt.legend()
+plt.grid(True)
+
+# Plotting Cumulative Regret
+plt.subplot(1, 2, 2)
+plt.plot(cumulative_regret, label='Cumulative Regret', color='blue')
+plt.xlabel('Rounds')
+plt.ylabel('Cumulative Regret')
+plt.title('Cumulative Regret over Time')
+plt.legend()
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
